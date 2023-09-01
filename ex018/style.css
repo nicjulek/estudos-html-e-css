@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 
+em HTML é id = em CSS é # 
+em HTML é class =em CSS é .
+id = 1
+class = vários
+
+O elemento HTML <span> é um conteiner generico em linha para conteúdo fraseado ,
+que não representa nada por natureza. Ele pode ser usado para agrupar elementos para
+fins de estilo (usando os atributos class ou id ), ou para compartilhar valores de
+atributos como lang. Ele deve ser usado somente quando nenhum outro elemento semântico
+for apropriado. <span> é muito parecido com o elemento <div> , entretando <div> é um 
+elemento de nível de bloco enquanto <span> é um elemento em linha.
+*/
+
+body{
+    background-color: rgb(118, 228, 133);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:rgb(23, 31, 46);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: antiquewhite;
+}
+
+h2{
+    color:#2b325c
+}
+
+.básico {
+    color: brown;
+}
+
+.intermediario{
+    color: cadetblue;
+}
+
+.avancado{
+    color: darkblue;
+}
+
+.destaque{
+    background-color: yellow;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in (polegada), px, pt (ponto), pc
+            
+            Medidas Relativas
+            em (altura relativa ao M maiusculo de uma fonte), ex (altura relativa ao x de uma fonte), 
+            rem (mesma coisa que em mas relativa a fonte configurada no body), vw (porcentagem da largura da viewport),
+            %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /*weight(peso), width(largura), height(altura).*/
+            /*lighter normal bold bolder*/   
+        }
+
+        h1{
+            /*shorthand font
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em  'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos minus possimus eum unde excepturi, repellendus culpa, animi optio amet architecto et rem vero? Saepe iusto adipisci, placeat atque nisi laudantium?</p>
+    <h2>AAAAA</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae nemo itaque dolorum alias ipsum minima quos incidunt libero totam aut enim laboriosam, distinctio explicabo ducimus dicta et veritatis doloribus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro delectus sequi aut nulla reiciendis quos non totam dolorem, eius repellendus voluptatem veritatis itaque temporibus sint corporis molestias repellat voluptas ducimus?</p>
+    <h2>CUCETA</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quod at mollitia non, est ipsa aliquam iste enim, laudantium error ipsum, voluptate laboriosam expedita repellendus dolore sequi consequuntur eum voluptates!</p>
+    <a href="pag2.html">clique aqui</a>
+</body>
+</html>
